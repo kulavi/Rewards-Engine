@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+xmlns:android="http://schemas.android.com/apk/res/android" 
+		android:layout_width="fill_parent" 
+		android:layout_height="fill_parent"
+		android:background="#FFFFFFFF"
+		>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" 
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent" 
+	android:background="#FFFFFFFF">
+	<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content" android:paddingLeft="5px"
+		android:paddingTop="10px">
+	<TableRow>
+				<Button
+				android:id="@+id/btnback" 
+				android:layout_width="80px"
+				android:layout_height="wrap_content" 
+				android:layout_marginLeft="10px"
+				android:background="@drawable/back" />
+	<TextView 
+				android:id="@+id/txtwel" 
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content" 
+				android:layout_marginLeft="30px" 
+				android:textColor="#000000" 
+				android:text="Redeem Points" />
+				
+		<Button 
+				android:id="@+id/btnlogout" 
+				android:layout_width="80px"
+				android:layout_height="wrap_content" 
+				android:layout_marginLeft="20px"
+				android:background="@drawable/logout"/>	
+				</TableRow>
+				</TableLayout>
+				<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+		android:id="@+id/name_table" 
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:paddingTop="80px"
+		android:paddingLeft="40px">	
+		
+		<TableRow>
+			<TextView 
+				android:id="@+id/txtpoint" 
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content" 
+				
+				android:textColor="#000000" 
+				android:text="Total Points" />
+				<EditText 
+				android:id="@+id/editpoint"
+				android:inputType="number" 
+				android:layout_width="150px"
+				android:layout_marginLeft="10px"
+				android:layout_height="wrap_content"/>
+			</TableRow>
+			
+			<TableRow>
+			<TextView 
+				android:id="@+id/txtcurrency" 
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content" 
+			   android:layout_marginTop="20px"
+				
+				android:textColor="#000000" 
+				android:text="Currency" />
+				<EditText 
+				android:id="@+id/editcurrency"
+				android:inputType="number" 
+				android:layout_width="150px"
+				android:layout_marginTop="20px"
+				android:layout_marginLeft="10px"
+				android:layout_height="wrap_content"/>
+			</TableRow>
+		</TableLayout>
+		<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+		android:id="@+id/name_table" 
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:paddingTop="20px"
+		android:paddingLeft="5px">
+		<TableRow>
+		</TableRow>
+		</TableLayout>
+		<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:gravity="center_vertical|center_horizontal">
+    
+   
+			<Button
+				android:id="@+id/btnok" 
+				android:layout_width="80px"
+				android:layout_height="wrap_content" 
+				android:text="OK" />
+			
+	</LinearLayout>
+		
+				</LinearLayout>
+</ScrollView>

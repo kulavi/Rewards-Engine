@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+xmlns:android="http://schemas.android.com/apk/res/android" 
+		android:layout_width="fill_parent" 
+		android:layout_height="fill_parent"
+		android:background="#FFFFFFFF"
+		>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="fill_parent"
+	android:layout_height="fill_parent" android:background="#FFFFFFFF">
+	
+
+
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+		android:id="@+id/redimpointstbl" android:layout_width="wrap_content"
+		android:layout_height="wrap_content" android:paddingLeft="5px" 
+		android:layout_marginTop="20px"	android:paddingTop="10px">		
+<TableRow>
+			<TextView android:id="@+id/title" android:layout_width="wrap_content"
+				android:layout_height="wrap_content"  
+				android:layout_marginLeft="10px" android:textColor="#000000" android:text="Enter Points To Redeem" />
+				
+				</TableRow>
+		<TableRow>
+			<EditText android:id="@+id/edtpoints" android:layout_width="200px"
+				android:layout_height="wrap_content"
+				android:inputType="number"
+				android:layout_marginTop="7px"/>
+		</TableRow>
+		
+			
+			</TableLayout>
+		
+		<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+    android:orientation="horizontal"
+   >
+    <TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+		android:id="@+id/redimpointstbl" android:layout_width="wrap_content"
+		android:layout_height="wrap_content" android:paddingLeft="5px" 
+		android:layout_marginTop="20px"	android:paddingTop="10px">		
+<TableRow>
+					
+				<Button android:id="@+id/btngeneratecoupen" android:layout_width="wrap_content"
+				android:layout_marginLeft="30px"
+				android:layout_height="wrap_content" android:background="@drawable/coupon"
+				android:layout_marginTop="10px"/>
+				<Button android:id="@+id/cancel" android:layout_width="wrap_content"
+				android:layout_height="wrap_content" android:background="@drawable/cancel"
+				android:layout_marginLeft="10px"
+				android:layout_marginTop="10px"/>
+				</TableRow>
+				</TableLayout>
+		</LinearLayout>
+			</LinearLayout>
+			</ScrollView>

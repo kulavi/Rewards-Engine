@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RelativeLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rl" 
+    android:layout_height="fill_parent" 
+    android:layout_width="match_parent">
+<ScrollView
+xmlns:android="http://schemas.android.com/apk/res/android" 
+		android:layout_width="fill_parent" 
+		android:layout_height="fill_parent"
+		android:background="#FFFFFFFF"
+		>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" 
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent" 
+	android:background="#FFFFFFFF">
+	
+	<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content" android:paddingLeft="5px"
+		android:paddingTop="10px">
+	<TableRow>
+				<Button
+				android:id="@+id/btnback" 
+				android:layout_width="80px"
+				android:layout_height="wrap_content" 
+				android:layout_marginLeft="10px"
+				android:background="@drawable/back" />
+	<TextView 
+				android:id="@+id/txtwel" 
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content" 
+				android:layout_marginLeft="30px" 
+				android:textColor="#000000" 
+				android:text="Reward Earned" />
+				
+		<Button 
+				android:id="@+id/btnlogout" 
+				android:layout_width="80px"
+				android:layout_height="wrap_content" 
+				android:layout_marginLeft="20px"
+				android:background="@drawable/logout"/>	
+				</TableRow>
+				</TableLayout>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+		android:id="@+id/tbl_reward_earned" 
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content" 
+		android:paddingLeft="5px" 
+		android:layout_marginTop="20px"	
+		android:paddingTop="10px">	
+		
+		<TableRow>
+		<TextView
+		android:id="@+id/txt_total_earned" 
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content" 
+		android:textColor="#000000"
+		android:layout_marginLeft="15px"
+		android:text="Total Points Earned:100" />
+		
+		<Button 
+		android:id="@+id/btn_view_details" 
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content" 
+		android:background="@drawable/view_details"
+		 />
+		</TableRow>
+		<TableRow>
+		<TextView
+		android:id="@+id/txt_total_redimed" 
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content" 
+		android:textColor="#000000"
+		android:layout_marginLeft="15px" 
+		android:text="Total Points Redimed:100"
+		android:layout_marginTop="7px"/>
+		<Button 
+		android:id="@+id/btn_redim_details" 
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content" 
+		android:background="@drawable/redeem_details"
+		android:layout_marginTop="7px"/>
+		
+		</TableRow>	
+		</TableLayout> 
+		<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:gravity="center_vertical|center_horizontal"
+    android:paddingTop="20px">
+    
+		<Button 
+		android:id="@+id/btn_redim_point" 
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+	 android:background="@drawable/redeem_pts" />	
+		
+	
+	</LinearLayout>
+	
+<!--<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+		android:id="@+id/tbl_reward_earned_details" 
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content" 
+		android:paddingLeft="5px" 
+		android:layout_marginTop="20px"	
+		android:paddingTop="10px">	
+		
+		
+	</TableLayout> 
+	--><TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+		android:id="@+id/redim" 
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content" 
+		android:paddingLeft="5px" 
+		android:layout_marginTop="20px"	
+		android:paddingTop="10px">	
+	
+                          
+     </TableLayout> 
+	<!--<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+		android:id="@+id/radio" 
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content" 
+		android:paddingLeft="5px" 
+		android:layout_marginTop="20px"	
+		android:paddingTop="10px">	
+		
+		<TableRow>
+            <RadioButton android:id="@+id/positive" 
+                android:text="Positive" 
+                android:layout_width="wrap_content" 
+                android:layout_height="wrap_content" 
+                android:textColor="#306EFF"
+                android:layout_marginLeft="10px">
+                </RadioButton>
+               
+            <RadioButton android:id="@+id/negative" 
+                android:text="Negative" 
+                android:layout_width="wrap_content" 
+                android:layout_height="wrap_content" 
+                android:textColor="#306EFF"
+                android:layout_marginLeft="50px">
+                </RadioButton>
+                </TableRow>
+	</TableLayout>
+	
+	--><TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+		android:id="@+id/redimdetails" 
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content" 
+		android:paddingLeft="5px" 
+		android:layout_marginTop="20px"	
+		android:paddingTop="10px">	
+		
+		
+	</TableLayout>
+	
+	
+	</LinearLayout>
+	</ScrollView>
+	<LinearLayout android:id="@+id/footer1"
+ 					android:layout_width="fill_parent"
+				    android:layout_height="wrap_content" 
+				    android:orientation="horizontal"
+				    android:layout_alignParentBottom="true"
+				    android:visibility="gone" 
+				    style="@android:style/ButtonBar">
+
+				    <Button android:id="@+id/btnok"   
+				    	android:layout_width="wrap_content"
+				        android:layout_height="wrap_content"
+				        android:layout_weight="1"
+				        android:text="OK" />
+					
+</LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rl" 
+    android:layout_height="fill_parent" 
+    android:layout_width="match_parent">
+<ScrollView
+xmlns:android="http://schemas.android.com/apk/res/android" 
+		android:layout_width="fill_parent" 
+		android:layout_height="fill_parent"
+		android:background="#FFFFFFFF"
+		>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" 
+	android:id="@+id/ll"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent" 
+	android:background="#FFFFFFFF">
+	<TextView
+				android:id="@+id/txtname"   
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content" 
+				android:layout_marginLeft="25px"
+				android:layout_marginTop="20px"/>
+	<!--<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+		android:id="@+id/radio" 
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content" 
+		android:paddingLeft="5px" 
+		android:layout_marginTop="20px"	
+		android:paddingTop="10px">	
+		
+		<TableRow>
+		<RadioGroup android:layout_width="wrap_content" 
+      android:layout_height="wrap_content" 
+      android:id="@+id/Group1"
+      android:orientation="horizontal"
+      android:paddingLeft="7px">
+            <RadioButton android:id="@+id/positive" 
+                android:text="Positive" 
+                android:layout_width="wrap_content" 
+                android:layout_height="wrap_content" 
+                android:textColor="#306EFF"
+                android:layout_marginLeft="10px">
+                </RadioButton>
+               
+            <RadioButton android:id="@+id/negative" 
+                android:text="Negative" 
+                android:layout_width="wrap_content" 
+                android:layout_height="wrap_content" 
+                android:textColor="#306EFF"
+                android:layout_marginLeft="50px">
+                </RadioButton>
+                </RadioGroup>
+                </TableRow>
+                 <TextView 
+                android:id="@+id/wels"
+                android:layout_width="wrap_content"
+				android:layout_height="wrap_content" 
+				android:textColor="#000000"
+				android:text="WELCOME" 
+				android:layout_marginLeft="30px" />
+	</TableLayout>
+	
+	--><TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+		android:id="@+id/tbl_reward_earned_details_positive" 
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content" 
+		android:paddingLeft="5px" 
+		android:layout_marginTop="20px"	
+		android:paddingTop="10px">	
+		
+		
+	</TableLayout> 
+	
+	<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+		android:id="@+id/tbl_reward_earned_details_negative" 
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content" 
+		android:paddingLeft="5px" 
+		android:layout_marginTop="20px"	
+		android:paddingTop="10px">	
+		
+		
+	</TableLayout> 
+	
+</LinearLayout>
+</ScrollView>
+<LinearLayout android:id="@+id/footer1"
+ 					android:layout_width="fill_parent"
+				    android:layout_height="wrap_content" 
+				    android:orientation="horizontal"
+				    android:layout_alignParentBottom="true"
+				    style="@android:style/ButtonBar">
+
+				    <Button android:id="@+id/btnok"   
+				    	android:layout_width="wrap_content"
+				        android:layout_height="wrap_content"
+				        android:layout_weight="1"
+				        android:gravity="center_horizontal"
+				        android:text="OK" />
+					
+</LinearLayout>
+</RelativeLayout>

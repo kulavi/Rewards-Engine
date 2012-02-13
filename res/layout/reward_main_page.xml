@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+xmlns:android="http://schemas.android.com/apk/res/android" 
+		android:layout_width="fill_parent" 
+		android:layout_height="fill_parent"
+		android:background="#FFFFFFFF"
+		>
+		<RelativeLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android" 
+    android:orientation="vertical"
+    android:layout_height="fill_parent" 
+    android:layout_width="match_parent"
+    android:background="#FFFFFF">
+    
+    <TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content" 
+		android:paddingTop="7px">
+	<TableRow>
+				<Button	android:id="@+id/btnback" 
+				android:background="@drawable/back"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content" />
+
+				
+		<Button 
+				android:id="@+id/btnlogout" 
+					android:background="@drawable/logout"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content" 
+				android:layout_marginLeft="80px"
+				 />	
+				</TableRow>
+				</TableLayout>	
+    <TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content" 
+		android:paddingTop="60px">
+	<TableRow>
+     <ImageView 
+    android:id="@+id/pro_pic"   
+    android:layout_width="80px"
+    android:layout_height="80px"
+    android:layout_marginLeft="30px"/>
+    <TextView   
+    android:id="@+id/welcome_user"  
+    android:textStyle="bold"   
+    android:layout_width="wrap_content" 
+    android:layout_height="wrap_content" 
+    android:layout_marginLeft="15px"
+    android:layout_marginTop="30px"
+    android:textColor="#000000"
+    android:text="hi"/>
+    </TableRow>
+    	</TableLayout>	
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:gravity="center_vertical|center_horizontal">
+  <TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content" >
+		<TableRow>
+		<Button 
+android:id="@+id/reward_earned" 
+android:layout_width="wrap_content"
+android:layout_height="wrap_content" 
+android:layout_marginTop="150px" 
+	android:background="@drawable/rewards_earned"/> 
+	
+	</TableRow>
+	</TableLayout>
+	</LinearLayout>
+	<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+    android:orientation="horizontal">
+	<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content" >
+		
+		<TableRow>
+<Button 
+android:id="@+id/define_currency"   
+android:layout_width="wrap_content"
+android:layout_height="wrap_content" 
+android:layout_marginTop="200px" 
+android:background="@drawable/redeem_ratio" />
+
+<Button 
+android:id="@+id/assign_authority" 
+android:layout_width="wrap_content"
+android:layout_height="wrap_content" 
+android:layout_marginLeft="90px"
+android:layout_marginTop="200px" 
+android:background="@drawable/assign_autho"/>
+	</TableRow>
+	</TableLayout>
+	</LinearLayout>
+	<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:gravity="center_vertical|center_horizontal">
+  <TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content" >
+		<TableRow>
+		<Button 
+android:id="@+id/reward_balance" 
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:background="@drawable/rewards_bal"
+android:layout_marginTop="250px" />   
+	
+	</TableRow>
+	</TableLayout>
+	</LinearLayout>
+
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+    android:orientation="horizontal">
+	<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content" >
+		
+		<TableRow>
+<Button 
+android:id="@+id/add_reason" 
+android:layout_width="wrap_content"
+android:layout_height="wrap_content" 
+android:background="@drawable/add_reason"
+android:layout_marginTop="300px"/>
+<Button 
+android:id="@+id/assign_reward" 
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:layout_marginLeft="90px"
+android:background="@drawable/assign_rewards" 
+android:layout_marginTop="300px"/>
+	</TableRow>
+	</TableLayout>
+</LinearLayout> 
+
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:gravity="center_vertical|center_horizontal">
+  <TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content" >
+		<TableRow>
+		<Button 
+android:id="@+id/reward_given" 
+android:layout_width="wrap_content"
+android:layout_height="wrap_content" 
+android:layout_marginTop="350px"
+	android:background="@drawable/rewards_given"/>
+	
+	</TableRow>
+	</TableLayout>
+	</LinearLayout>
+</RelativeLayout>
+</ScrollView>

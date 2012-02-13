@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+xmlns:android="http://schemas.android.com/apk/res/android" 
+		android:layout_width="fill_parent" 
+		android:layout_height="fill_parent"
+		android:background="#FFFFFFFF"
+		>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" 
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:background="@drawable/homescreen">
+	
+
+	<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+		android:id="@+id/info_table" 
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content" 
+		android:paddingLeft="5px"
+		android:paddingTop="10px">  
+		<TableRow>
+			
+			<Button 
+				android:id="@+id/login"      
+				android:layout_width="100px"
+				android:layout_height="wrap_content" 
+				android:layout_marginLeft="100px"
+				android:layout_marginTop="150px" 
+				android:background="@drawable/login" />       
+		</TableRow> 
+	</TableLayout>
+</LinearLayout> 
+</ScrollView>

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android">
+
+<RelativeLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rl" 
+    android:layout_height="wrap_content" 
+    android:layout_width="fill_parent">
+    <LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content">
+ 
+    <LinearLayout android:id="@+id/header"
+ 					android:layout_width="fill_parent"
+				    android:layout_height="wrap_content" 
+				    android:orientation="horizontal"
+				    android:layout_alignParentTop="true" 
+				    style="@android:style/ButtonBar">
+    
+	
+				<Button
+				android:id="@+id/btnback" 
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content" 
+				android:layout_marginLeft="10px"
+				android:text="Back" 
+				android:layout_weight="1"/>
+	
+				
+		<Button 
+				android:id="@+id/btnlogout" 
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content" 
+				android:layout_marginLeft="30px"
+				android:text="Logout" 
+				android:layout_weight="1"/>	
+			</LinearLayout>	
+    
+  <ListView
+ 
+    android:id="@+id/List"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+   />
+      
+ 
+</LinearLayout>
+				<LinearLayout android:id="@+id/footer"
+ 					android:layout_width="fill_parent"
+				    android:layout_height="wrap_content" 
+				    android:orientation="horizontal"
+				    android:layout_alignParentBottom="true" 
+				    style="@android:style/ButtonBar">
+
+				    <Button android:id="@+id/btnviewdetails"  
+				    	android:layout_width="wrap_content"
+				        android:layout_height="wrap_content"
+				        android:layout_weight="1"
+				        android:text="View Details" />
+					<Button
+						android:id="@+id/btnassignmore"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:text="Assign More Point"
+						android:layout_weight="1"
+					/>
+</LinearLayout>
+
+				</RelativeLayout>
+</merge>

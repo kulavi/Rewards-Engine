@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, Rewards_Engine!</string>
+    <string name="app_name">Rewards_Engine</string>
+    
+    <!--<string-array name="UserTypes">
+        <item>ManagerAirtel</item>
+        <item>AgentAirtel</item>
+        <item>Pickup Exe.Airtel</item>
+        <item>Field Exe. Airtel</item>
+        <item>BackendAirtel</item>
+        <item>AdministratorAirtel</item>    
+        <item>professor</item>
+        <item>student</item>
+        <item>admin</item>
+    </string-array>
+    
+--></resources>
+
